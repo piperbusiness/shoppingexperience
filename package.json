@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install",
-    "build": "npm run build-script",  // Beispiel für ein eigenes Build-Skript
-    "start": "npm run start-server",  // Beispiel für den Start-Befehl
+    "build": "npm run build-script",  
+    "start": "npm run start-server",  
     "start:debug": "npm run start-server --debug",
-    "dev": "npm run dev-server",      // Beispiel für den Development-Start
-    "user:create": "npm run user-create",  // Beispiel für Benutzererstellung
-    "user:changePassword": "npm run user-changePassword"  // Beispiel für Passwort ändern
+    "dev": "npm run dev-server",      
+    "user:create": "npm run user-create",  
+    "user:changePassword": "npm run user-changePassword" 
   },
   "author": "",
   "license": "ISC",
