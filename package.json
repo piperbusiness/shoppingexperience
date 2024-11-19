@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "evershop install",
-    "build": "chmod +x ./node_modules/.bin/evershop && ./node_modules/.bin/evershop build",
-    "start": "evershop start",
-    "start:debug": "evershop start --debug",
-    "dev": "evershop dev",
-    "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword"
+    "setup": "npm install",
+    "build": "npm run build-script",  // Beispiel für ein eigenes Build-Skript
+    "start": "npm run start-server",  // Beispiel für den Start-Befehl
+    "start:debug": "npm run start-server --debug",
+    "dev": "npm run dev-server",      // Beispiel für den Development-Start
+    "user:create": "npm run user-create",  // Beispiel für Benutzererstellung
+    "user:changePassword": "npm run user-changePassword"  // Beispiel für Passwort ändern
   },
   "author": "",
   "license": "ISC",
